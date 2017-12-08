@@ -2,7 +2,7 @@
 
 ## Tutorial
 
-[![Video Tutorial React Starter](https://img.youtube.com/vi/jB7yIuXiiCg/0.jpg)](https://www.youtube.com/watch?v=jB7yIuXiiCg)
+[![Video Tutorial React Starter](https://img.youtube.com/vi/v7dR15NEe-8/0.jpg)](https://www.youtube.com/watch?v=v7dR15NEe-8)
 
 ## Download
 
