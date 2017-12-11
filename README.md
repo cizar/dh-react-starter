@@ -21,21 +21,25 @@ npm start
 ## Step by step
 
 Create empty directory and go into it
+
 ```
 mkdir my-project && cd $_
 ``
 
 Create the package.json file
+
 ```
 npm init -y
 ```
 
 Install project dependencies
+
 ```
 npm install --save react react-dom babel-core babel-preset-env babel-preset-react babel-preset-stage-2 webpack webpack-dev-server babel-loader
 ```
 
 Create **.babelrc** to configure Babel
+
 ```
 cat << __EOF__ > .babelrc
 {
@@ -45,6 +49,7 @@ __EOF__
 ```
 
 Create **webpack.config.js** to configure Webpack
+
 ```
 cat << __EOF__ > webpack.config.js
 var path = require('path')
@@ -69,7 +74,8 @@ module.exports = config
 __EOF__
 ```
 
-Create index.html
+Create the **index.html** file
+
 ```
 cat << __EOF__ > index.html
 <!DOCTYPE html>
@@ -87,11 +93,13 @@ __EOF__
 ```
 
 Create the source code directory structure
+
 ```
 mkdir -p src/components
 ```
 
 Create the main application component
+
 ```
 cat << __EOF__ > src/components/App.js
 import React from 'react'
@@ -110,6 +118,7 @@ __EOF__
 ```
 
 Create the application entry point
+
 ```
 cat << __EOF__ > src/index.js
 import React from 'react'
@@ -121,6 +130,7 @@ __EOF__
 ```
 
 Run the development server
+
 ```
 ./node_modules/.bin/webpack-dev-server --open
 ```
