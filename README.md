@@ -24,7 +24,7 @@ Create empty directory and go into it
 
 ```
 mkdir my-project && cd $_
-``
+```
 
 Create the package.json file
 
