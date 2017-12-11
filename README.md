@@ -20,13 +20,13 @@ npm start
 
 ## Step by step
 
-Create empty directory and go into it
+Create an empty directory and go into it
 
 ```
 mkdir my-project && cd $_
 ```
 
-Create the package.json file
+Create the **package.json** file
 
 ```
 npm init -y
