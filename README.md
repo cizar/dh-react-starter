@@ -35,7 +35,9 @@ npm init -y
 Install project dependencies
 
 ```
-npm install --save react react-dom babel-core babel-preset-env babel-preset-react babel-preset-stage-2 webpack webpack-dev-server babel-loader
+npm install --save react react-dom \
+  babel-core babel-preset-env babel-preset-react babel-preset-stage-2 \
+  webpack webpack-dev-server babel-loader
 ```
 
 Create **.babelrc** to configure Babel
